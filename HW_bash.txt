@@ -1,0 +1,25 @@
+HW_bash
+
+1. pwd
+2. mkdir q1
+3. cd q1
+4. mkdir q1 q2 q3
+5. cd q3
+6. touch q1.txt q2.txt q3.txt q4.json q5.json
+7. mkdir q4 q5 q6
+8. ls -la
+9. Cat >> q1
+10. Cat >> q1
+11. ctrl+c
+12. cd ..
+13. mv /d/q1/q2/q1.txt /d/q1/q2/q2.txt /d/q1/q3
+14. cp /d/q1/q2/q1.txt /d/q1/q2/q2.txt /d/q1/q3
+15. find . -name q1.txt
+16. grep '123' q3.txt
+17. head -3 q1.txt
+18. tail -3 q1.txt
+19. less q1.txt
+20. date
+
+1. curl http://162.55.220.72:5005/terminal-hw-request
+1.1 curl -X POST -d "name=dmitry" -d "age=28" http://162.55.220.72:5005/get_method?
